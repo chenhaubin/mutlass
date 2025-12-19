@@ -15,12 +15,12 @@ Note: MUTLASS uses the CuTe library, introduced in CUTLASS 3.x, as the backend, 
 MUTLASS 0.3.0 is an update to MUTLASS adding:
 
 - Tensor Memory Engine (TME) im2col primitives.
-- New warp specialized GEMM mainloop targeting MP31 architecture.
+- New WarpSpecialized GEMM mainloop targeting MP31 architecture.
 - New instances of FP8 (e4m3, m5m2) GEMM in Library targeting MP31 architecture.
 - New persistent tile schedule.
 - Refine FP8 scale GEMM implementation for MP31 architecture.
-- New Warp specialized [FMHA](./experimental/fmha/fmha_fwd.mu) and [Paged FMHA](./experimental/fmha/paged_fmha_fwd.mu) implementation for MP31 architecture.
-- New Warp specialized [MLA](./experimental/fmha/mla.mu) implementation for MP31 architecture.
+- New WarpSpecialized [FMHA](./experimental/fmha/fmha_fwd.mu) and [Paged FMHA](./experimental/fmha/paged_fmha_fwd.mu) implementation for MP31 architecture.
+- New WarpSpecialized [MLA](./experimental/fmha/mla.mu) implementation for MP31 architecture.
 
 
 Minimum requirements:
